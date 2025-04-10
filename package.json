@@ -1,0 +1,24 @@
+{
+  "name": "sistema-portaria",
+  "author": "Thiago Mafort",
+  "version": "1.0.0",
+  "description": "Sistema de portaria MVC com Node.js, TypeScript e SQL",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^20.4.2",
+    "@types/pg": "^8.11.11",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
